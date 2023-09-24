@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            heading: ["Hind", "sans-serif"],
+            desc: ["DM Sans", "sans-serif"],
+          },
+          extend: {
+            keyframes: {
+              rotate: {
+                "0%": { transform: "rotate(0deg)" },
+                "100%": { transform: "rotate(360deg)" },
+              },
+              move: {
+                "0%": { transform: "translateY(0px)" },
+                "50%": { transform: "translateY(10px)" },
+                "100%": { transform: "translateY(0px)" },
+              },
+            },
+            animation: {
+              rotate: "rotate 2s ease-in-out infinite",
+              move: "move 2s ease-in-out infinite",
+            },
+          },
+        },
+      };
+    </script>
+    <title>PepeIsFine</title>
+  </head>
+  <body class="bg-[#fba604]">
+    <header
+      class="bg-white h-24 border-b-4 border-black flex items-center justify-between px-4"
+    >
+      <img src="pepeisfine.png" alt="" class="h-16" />
+      <div class="flex space-x-2">
+        <div
+          class="h-16 flex justify-center items-center w-16 border-4 border-black"
+        >
+          <a target="_blank" href="https://t.me/pepeisfinetoken"><img src="TGLOGO.png" alt="" class="h-10" /></a>
+        </div>
+        <div
+          class="h-16 flex justify-center items-center w-16 border-4 border-black"
+        >
+          <a target="_blank" href="https://twitter.com/PepeIsFineToken"><img src="TWLOGO.png" alt="" class="h-10" /></a>
+        </div>
+      </div>
+    </header>
+    <section
+      class="px-4 flex flex-col items-center pt-12 border-black border-b-4"
+    >
+      <img src="PEPEISFINE.png" alt="" class="h-[22rem]" />
+      <div class="flex flex-col items-start w-screen px-4 pt-16">
+        <h1 class="text-4xl font-heading">WHO AM I ?</h1>
+        <p class="text-[1.2rem] font-desc pt-6">
+          I’m okay with the events that are unfolding currently.
+          <br /><br />
+          The taxes on this are decent. It’s 2% Buy / Sell. <br /><br />
+          My devs have some alright previous projects on their résumé, did a
+          couple billion or whatever. The contract seems to be renounced, the
+          website is fine, and liquidity is BURNED which also seems meh.
+          Overall, seems like All Is Fine.
+        </p>
+        <a target="_blank"
+          href="https://bscscan.com/token/0xa02a2debf9d4e7651a73979dff8a2dc10f94d0e8"
+          ><button
+            class="border-4 font-desc text-2xl border-black w-[22rem] h-[4rem] rounded-lg mt-8 mb-8 flex justify-center items-center"
+          >
+            Contract Address
+          </button></a
+        >
+      </div>
+    </section>
+    <section
+      class="px-4 flex flex-col items-center border-black border-b-4 pb-10 bg-white"
+    >
+      <h1 class="font-heading text-4xl pt-8">🔥TOKENOMICS🔥</h1>
+      <div
+        class="border-4 font-heading text-4xl border-black w-[22rem] h-[8rem] rounded-lg mt-8 flex flex-col justify-center items-center"
+      >
+        BUY TAX <br />
+        <span class="text-[#fba604]">2%</span>
+      </div>
+      <div
+        class="border-4 font-heading text-4xl border-black w-[22rem] h-[8rem] rounded-lg mt-8 flex flex-col justify-center items-center"
+      >
+        SUPPLY <br />
+        <span class="text-[#fba604]">1,000,000</span>
+      </div>
+      <div
+        class="border-4 font-heading text-4xl border-black w-[22rem] h-[8rem] rounded-lg mt-8 flex flex-col justify-center items-center"
+      >
+        SELL TAX <br />
+        <span class="text-[#fba604]">2%</span>
+      </div>
+    </section>
+
+    <section
+      class="flex flex-col px-4 items-center py-10 border-black border-b-4"
+    >
+      <h1 class="font-heading text-4xl pb-10">🔥ROADMAP🔥</h1>
+      <div class="flex flex-col space-y-2">
+        <div
+          class="h-[12rem] w-[22rem] flex flex-col items-center pt-3 border-4 border-black rounded-lg"
+        >
+          <h1 class="font-heading text-3xl pb-3">PHASE ONE</h1>
+          <p class="font-heading">PHASE ONE CONTENT</p>
+          <p class="font-heading">PHASE ONE CONTENT</p>
+          <p class="font-heading">PHASE ONE CONTENT</p>
+          <p class="font-heading">PHASE ONE CONTENT</p>
+        </div>
+        <div
+          class="h-[12rem] w-[22rem] flex flex-col items-center pt-3 border-4 border-black rounded-lg"
+        >
+          <h1 class="font-heading text-3xl pb-3">PHASE TWO</h1>
+          <p class="font-heading">PHASE TWO CONTENT</p>
+          <p class="font-heading">PHASE TWO CONTENT</p>
+          <p class="font-heading">PHASE TWO CONTENT</p>
+          <p class="font-heading">PHASE TWO CONTENT</p>
+        </div>
+        <div
+          class="h-[12rem] w-[22rem] flex flex-col items-center pt-3 border-4 border-black rounded-lg"
+        >
+          <h1 class="font-heading text-3xl pb-3">PHASE THREE</h1>
+          <p class="font-heading">PHASE THREE CONTENT</p>
+          <p class="font-heading">PHASE THREE CONTENT</p>
+          <p class="font-heading">PHASE THREE CONTENT</p>
+          <p class="font-heading">PHASE THREE CONTENT</p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="px-4 flex flex-col items-center border-black border-b-4 pb-10 bg-white"
+    >
+      <h1 class="font-heading text-4xl pt-8">🔥PARTNERS🔥</h1>
+      <div
+        class="border-4 bg-[#fba604] font-heading text-4xl border-black w-[22rem] h-[8rem] rounded-lg mt-8 flex flex-col justify-center items-center"
+      >
+       <a target="_blank" href="https://www.pinksale.finance/"><img src="pepps.png" alt=""></a>
+    </div>
+      <div
+        class="border-4 bg-[#fba604] font-heading text-4xl border-black w-[22rem] h-[8rem] rounded-lg mt-8 flex flex-col justify-center items-center"
+      >
+       <a target="_blank" href="https://www.dexview.com/"><img src="pepedv.png" alt=""></a>
+    </section>
+
+    <footer class="flex flex-col items-center pt-10">
+      <img src="PEPEISFINE.gif" alt="" class="h-80" />
+      <h1 class="font-desc pt-10 pb-1">© PepeIsFine All Rights Reserved.</h1>
+    </footer>
+  </body>
+</html>
